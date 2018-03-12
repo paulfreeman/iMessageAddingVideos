@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14092" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14081.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messages View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" customModule="videotest_MessagesExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ld-Pr-Bpc">
+                                <rect key="frame" x="100" y="40" width="121" height="30"/>
+                                <state key="normal" title="Add video to feed"/>
+                                <connections>
+                                    <action selector="addVideo:" destination="ObA-dk-sSI" eventType="touchUpInside" id="BI2-UC-l3T"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMl-st-NGj">
+                                <rect key="frame" x="136" y="110" width="51" height="31"/>
+                                <color key="onTintColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="saveAsLayout:" destination="ObA-dk-sSI" eventType="valueChanged" id="ZbC-jB-0bL"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add as MSMessagesTemplateLayout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykB-Nw-qSz">
+                                <rect key="frame" x="0.0" y="159" width="320" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBU-nZ-dxS">
+                                <rect key="frame" x="38" y="414" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ykB-Nw-qSz" firstAttribute="top" secondItem="hMl-st-NGj" secondAttribute="bottom" constant="18" id="6Qr-76-dAi"/>
+                            <constraint firstItem="LDy-ih-0nr" firstAttribute="top" secondItem="2ld-Pr-Bpc" secondAttribute="top" constant="-20" id="FRt-Oc-bvH"/>
+                            <constraint firstItem="ykB-Nw-qSz" firstAttribute="leading" secondItem="LDy-ih-0nr" secondAttribute="leading" id="HLG-xo-1s6"/>
+                            <constraint firstItem="ykB-Nw-qSz" firstAttribute="centerX" secondItem="LDy-ih-0nr" secondAttribute="centerX" id="eLA-rf-vHf"/>
+                            <constraint firstItem="hMl-st-NGj" firstAttribute="centerX" secondItem="2ld-Pr-Bpc" secondAttribute="centerX" id="ece-Af-aHo"/>
+                            <constraint firstItem="hMl-st-NGj" firstAttribute="top" secondItem="2ld-Pr-Bpc" secondAttribute="bottom" constant="40" id="nyF-xZ-fGI"/>
+                            <constraint firstItem="2ld-Pr-Bpc" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="x66-5k-NUp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LDy-ih-0nr"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="addingStyle" destination="ykB-Nw-qSz" id="c7P-kG-gXe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.600000000000001" y="31.484257871064472"/>
+        </scene>
+    </scenes>
+</document>
