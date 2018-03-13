@@ -3,37 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAE8CD7E205695050034D0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8CD7D205695050034D0C0 /* Assets.xcassets */; };
-		DAE8CD85205695050034D0C0 /* videotest MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAE8CD84205695050034D0C0 /* videotest MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DAE8CD8A205695050034D0C0 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE8CD89205695050034D0C0 /* Messages.framework */; };
-		DAE8CD8D205695050034D0C0 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8CD8C205695050034D0C0 /* MessagesViewController.swift */; };
-		DAE8CD90205695050034D0C0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8CD8E205695050034D0C0 /* MainInterface.storyboard */; };
-		DAE8CD92205695050034D0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8CD91205695050034D0C0 /* Assets.xcassets */; };
-		DAE8CD9E205697450034D0C0 /* SampleVideo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = DAE8CD9D205697450034D0C0 /* SampleVideo.MP4 */; };
+		DADC19E02056B012004251D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC19DF2056B012004251D2 /* Assets.xcassets */; };
+		DADC19E72056B012004251D2 /* videotest MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DADC19E62056B012004251D2 /* videotest MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DADC19EC2056B012004251D2 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC19EB2056B012004251D2 /* Messages.framework */; };
+		DADC19EF2056B012004251D2 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC19EE2056B012004251D2 /* MessagesViewController.swift */; };
+		DADC19F22056B012004251D2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC19F02056B012004251D2 /* MainInterface.storyboard */; };
+		DADC19F42056B012004251D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC19F32056B012004251D2 /* Assets.xcassets */; };
+		DADEE5CE2057CA0000750DA3 /* SampleVideo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = DADEE5CD2057CA0000750DA3 /* SampleVideo.MP4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DAE8CD86205695050034D0C0 /* PBXContainerItemProxy */ = {
+		DADC19E82056B012004251D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAE8CD74205695040034D0C0 /* Project object */;
+			containerPortal = DADC19D62056B012004251D2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAE8CD83205695050034D0C0;
+			remoteGlobalIDString = DADC19E52056B012004251D2;
 			remoteInfo = "videotest MessagesExtension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DAE8CD99205695050034D0C0 /* Embed App Extensions */ = {
+		DADC19FB2056B012004251D2 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				DAE8CD85205695050034D0C0 /* videotest MessagesExtension.appex in Embed App Extensions */,
+				DADC19E72056B012004251D2 /* videotest MessagesExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,74 +41,74 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DAE8CD7A205695040034D0C0 /* videotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE8CD7D205695050034D0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAE8CD7F205695050034D0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE8CD84205695050034D0C0 /* videotest MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "videotest MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE8CD89205695050034D0C0 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		DAE8CD8C205695050034D0C0 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		DAE8CD8F205695050034D0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DAE8CD91205695050034D0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAE8CD93205695050034D0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAE8CD9D205697450034D0C0 /* SampleVideo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SampleVideo.MP4; path = ../../../../../Downloads/SampleVideo.MP4; sourceTree = "<group>"; };
+		DADC19DC2056B012004251D2 /* videotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC19DF2056B012004251D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADC19E12056B012004251D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC19E62056B012004251D2 /* videotest MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "videotest MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC19EB2056B012004251D2 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		DADC19EE2056B012004251D2 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		DADC19F12056B012004251D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DADC19F32056B012004251D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADC19F52056B012004251D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADEE5CD2057CA0000750DA3 /* SampleVideo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo.MP4; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DAE8CD81205695050034D0C0 /* Frameworks */ = {
+		DADC19E32056B012004251D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE8CD8A205695050034D0C0 /* Messages.framework in Frameworks */,
+				DADC19EC2056B012004251D2 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DAE8CD73205695040034D0C0 = {
+		DADC19D52056B012004251D2 = {
 			isa = PBXGroup;
 			children = (
-				DAE8CD7C205695040034D0C0 /* videotest */,
-				DAE8CD8B205695050034D0C0 /* videotest MessagesExtension */,
-				DAE8CD88205695050034D0C0 /* Frameworks */,
-				DAE8CD7B205695040034D0C0 /* Products */,
+				DADC19DE2056B012004251D2 /* videotest */,
+				DADC19ED2056B012004251D2 /* videotest MessagesExtension */,
+				DADC19EA2056B012004251D2 /* Frameworks */,
+				DADC19DD2056B012004251D2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAE8CD7B205695040034D0C0 /* Products */ = {
+		DADC19DD2056B012004251D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE8CD7A205695040034D0C0 /* videotest.app */,
-				DAE8CD84205695050034D0C0 /* videotest MessagesExtension.appex */,
+				DADC19DC2056B012004251D2 /* videotest.app */,
+				DADC19E62056B012004251D2 /* videotest MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAE8CD7C205695040034D0C0 /* videotest */ = {
+		DADC19DE2056B012004251D2 /* videotest */ = {
 			isa = PBXGroup;
 			children = (
-				DAE8CD7D205695050034D0C0 /* Assets.xcassets */,
-				DAE8CD7F205695050034D0C0 /* Info.plist */,
+				DADC19DF2056B012004251D2 /* Assets.xcassets */,
+				DADC19E12056B012004251D2 /* Info.plist */,
 			);
 			path = videotest;
 			sourceTree = "<group>";
 		};
-		DAE8CD88205695050034D0C0 /* Frameworks */ = {
+		DADC19EA2056B012004251D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAE8CD89205695050034D0C0 /* Messages.framework */,
+				DADC19EB2056B012004251D2 /* Messages.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DAE8CD8B205695050034D0C0 /* videotest MessagesExtension */ = {
+		DADC19ED2056B012004251D2 /* videotest MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
-				DAE8CD9D205697450034D0C0 /* SampleVideo.MP4 */,
-				DAE8CD8C205695050034D0C0 /* MessagesViewController.swift */,
-				DAE8CD8E205695050034D0C0 /* MainInterface.storyboard */,
-				DAE8CD91205695050034D0C0 /* Assets.xcassets */,
-				DAE8CD93205695050034D0C0 /* Info.plist */,
+				DADEE5CD2057CA0000750DA3 /* SampleVideo.MP4 */,
+				DADC19EE2056B012004251D2 /* MessagesViewController.swift */,
+				DADC19F02056B012004251D2 /* MainInterface.storyboard */,
+				DADC19F32056B012004251D2 /* Assets.xcassets */,
+				DADC19F52056B012004251D2 /* Info.plist */,
 			);
 			path = "videotest MessagesExtension";
 			sourceTree = "<group>";
@@ -116,30 +116,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAE8CD79205695040034D0C0 /* videotest */ = {
+		DADC19DB2056B012004251D2 /* videotest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE8CD9A205695050034D0C0 /* Build configuration list for PBXNativeTarget "videotest" */;
+			buildConfigurationList = DADC19FC2056B012004251D2 /* Build configuration list for PBXNativeTarget "videotest" */;
 			buildPhases = (
-				DAE8CD78205695040034D0C0 /* Resources */,
-				DAE8CD99205695050034D0C0 /* Embed App Extensions */,
+				DADC19DA2056B012004251D2 /* Resources */,
+				DADC19FB2056B012004251D2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAE8CD87205695050034D0C0 /* PBXTargetDependency */,
+				DADC19E92056B012004251D2 /* PBXTargetDependency */,
 			);
 			name = videotest;
 			productName = videotest;
-			productReference = DAE8CD7A205695040034D0C0 /* videotest.app */;
+			productReference = DADC19DC2056B012004251D2 /* videotest.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		DAE8CD83205695050034D0C0 /* videotest MessagesExtension */ = {
+		DADC19E52056B012004251D2 /* videotest MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE8CD96205695050034D0C0 /* Build configuration list for PBXNativeTarget "videotest MessagesExtension" */;
+			buildConfigurationList = DADC19F82056B012004251D2 /* Build configuration list for PBXNativeTarget "videotest MessagesExtension" */;
 			buildPhases = (
-				DAE8CD80205695050034D0C0 /* Sources */,
-				DAE8CD81205695050034D0C0 /* Frameworks */,
-				DAE8CD82205695050034D0C0 /* Resources */,
+				DADC19E22056B012004251D2 /* Sources */,
+				DADC19E32056B012004251D2 /* Frameworks */,
+				DADC19E42056B012004251D2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,91 +147,93 @@
 			);
 			name = "videotest MessagesExtension";
 			productName = "videotest MessagesExtension";
-			productReference = DAE8CD84205695050034D0C0 /* videotest MessagesExtension.appex */;
+			productReference = DADC19E62056B012004251D2 /* videotest MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAE8CD74205695040034D0C0 /* Project object */ = {
+		DADC19D62056B012004251D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Paul Freeman";
 				TargetAttributes = {
-					DAE8CD79205695040034D0C0 = {
-						CreatedOnToolsVersion = 9.3;
+					DADC19DB2056B012004251D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
-					DAE8CD83205695050034D0C0 = {
-						CreatedOnToolsVersion = 9.3;
+					DADC19E52056B012004251D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DAE8CD77205695040034D0C0 /* Build configuration list for PBXProject "videotest" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = DADC19D92056B012004251D2 /* Build configuration list for PBXProject "videotest" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = DAE8CD73205695040034D0C0;
-			productRefGroup = DAE8CD7B205695040034D0C0 /* Products */;
+			mainGroup = DADC19D52056B012004251D2;
+			productRefGroup = DADC19DD2056B012004251D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAE8CD79205695040034D0C0 /* videotest */,
-				DAE8CD83205695050034D0C0 /* videotest MessagesExtension */,
+				DADC19DB2056B012004251D2 /* videotest */,
+				DADC19E52056B012004251D2 /* videotest MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DAE8CD78205695040034D0C0 /* Resources */ = {
+		DADC19DA2056B012004251D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE8CD7E205695050034D0C0 /* Assets.xcassets in Resources */,
+				DADC19E02056B012004251D2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE8CD82205695050034D0C0 /* Resources */ = {
+		DADC19E42056B012004251D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE8CD9E205697450034D0C0 /* SampleVideo.MP4 in Resources */,
-				DAE8CD92205695050034D0C0 /* Assets.xcassets in Resources */,
-				DAE8CD90205695050034D0C0 /* MainInterface.storyboard in Resources */,
+				DADEE5CE2057CA0000750DA3 /* SampleVideo.MP4 in Resources */,
+				DADC19F42056B012004251D2 /* Assets.xcassets in Resources */,
+				DADC19F22056B012004251D2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DAE8CD80205695050034D0C0 /* Sources */ = {
+		DADC19E22056B012004251D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE8CD8D205695050034D0C0 /* MessagesViewController.swift in Sources */,
+				DADC19EF2056B012004251D2 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAE8CD87205695050034D0C0 /* PBXTargetDependency */ = {
+		DADC19E92056B012004251D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE8CD83205695050034D0C0 /* videotest MessagesExtension */;
-			targetProxy = DAE8CD86205695050034D0C0 /* PBXContainerItemProxy */;
+			target = DADC19E52056B012004251D2 /* videotest MessagesExtension */;
+			targetProxy = DADC19E82056B012004251D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAE8CD8E205695050034D0C0 /* MainInterface.storyboard */ = {
+		DADC19F02056B012004251D2 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DAE8CD8F205695050034D0C0 /* Base */,
+				DADC19F12056B012004251D2 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -239,7 +241,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DAE8CD94205695050034D0C0 /* Debug */ = {
+		DADC19F62056B012004251D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,12 +251,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -262,7 +262,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -290,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		DAE8CD95205695050034D0C0 /* Release */ = {
+		DADC19F72056B012004251D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,12 +308,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -322,7 +319,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -344,27 +340,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DAE8CD97205695050034D0C0 /* Debug */ = {
+		DADC19F92056B012004251D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YK5LLH2LY;
 				INFOPLIST_FILE = "videotest MessagesExtension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocketgarden.videotest.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -373,18 +364,14 @@
 			};
 			name = Debug;
 		};
-		DAE8CD98205695050034D0C0 /* Release */ = {
+		DADC19FA2056B012004251D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YK5LLH2LY;
 				INFOPLIST_FILE = "videotest MessagesExtension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rocketgarden.videotest.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -393,7 +380,7 @@
 			};
 			name = Release;
 		};
-		DAE8CD9B205695050034D0C0 /* Debug */ = {
+		DADC19FD2056B012004251D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -408,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		DAE8CD9C205695050034D0C0 /* Release */ = {
+		DADC19FE2056B012004251D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -426,34 +413,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAE8CD77205695040034D0C0 /* Build configuration list for PBXProject "videotest" */ = {
+		DADC19D92056B012004251D2 /* Build configuration list for PBXProject "videotest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE8CD94205695050034D0C0 /* Debug */,
-				DAE8CD95205695050034D0C0 /* Release */,
+				DADC19F62056B012004251D2 /* Debug */,
+				DADC19F72056B012004251D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE8CD96205695050034D0C0 /* Build configuration list for PBXNativeTarget "videotest MessagesExtension" */ = {
+		DADC19F82056B012004251D2 /* Build configuration list for PBXNativeTarget "videotest MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE8CD97205695050034D0C0 /* Debug */,
-				DAE8CD98205695050034D0C0 /* Release */,
+				DADC19F92056B012004251D2 /* Debug */,
+				DADC19FA2056B012004251D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE8CD9A205695050034D0C0 /* Build configuration list for PBXNativeTarget "videotest" */ = {
+		DADC19FC2056B012004251D2 /* Build configuration list for PBXNativeTarget "videotest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE8CD9B205695050034D0C0 /* Debug */,
-				DAE8CD9C205695050034D0C0 /* Release */,
+				DADC19FD2056B012004251D2 /* Debug */,
+				DADC19FE2056B012004251D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAE8CD74205695040034D0C0 /* Project object */;
+	rootObject = DADC19D62056B012004251D2 /* Project object */;
 }

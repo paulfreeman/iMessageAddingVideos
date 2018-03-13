@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:videotest.xcodeproj">
+      location = "group:../SampleVideo.MP4">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
