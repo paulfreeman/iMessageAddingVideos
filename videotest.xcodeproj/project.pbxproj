@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA20A8BF2056F86400661DAA /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20A8BE2056F86400661DAA /* AppViewController.swift */; };
+		DA20A8C12056F87A00661DAA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20A8C02056F87A00661DAA /* VideoViewController.swift */; };
 		DAE8CD7E205695050034D0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8CD7D205695050034D0C0 /* Assets.xcassets */; };
 		DAE8CD85205695050034D0C0 /* videotest MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAE8CD84205695050034D0C0 /* videotest MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAE8CD8A205695050034D0C0 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE8CD89205695050034D0C0 /* Messages.framework */; };
@@ -41,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA20A8BE2056F86400661DAA /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		DA20A8C02056F87A00661DAA /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		DAE8CD7A205695040034D0C0 /* videotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8CD7D205695050034D0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE8CD7F205695050034D0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				DAE8CD8E205695050034D0C0 /* MainInterface.storyboard */,
 				DAE8CD91205695050034D0C0 /* Assets.xcassets */,
 				DAE8CD93205695050034D0C0 /* Info.plist */,
+				DA20A8BE2056F86400661DAA /* AppViewController.swift */,
+				DA20A8C02056F87A00661DAA /* VideoViewController.swift */,
 			);
 			path = "videotest MessagesExtension";
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA20A8BF2056F86400661DAA /* AppViewController.swift in Sources */,
 				DAE8CD8D205695050034D0C0 /* MessagesViewController.swift in Sources */,
+				DA20A8C12056F87A00661DAA /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
