@@ -9,9 +9,7 @@
 import UIKit
 import Messages
 
-
 class MessagesViewController: MSMessagesAppViewController {
-    
     
     @IBOutlet weak var addingStyle: UILabel!
     var addAsLayoutTemplate = true
@@ -28,7 +26,9 @@ class MessagesViewController: MSMessagesAppViewController {
         self.composeMessage(with: url, caption: "Sample Video")
     }
     
-    
+    /**
+    * This is the part where the action will happen
+    */
     fileprivate func composeMessage(with mediaUrl: URL, caption: String)   {
         
         guard let convo  = activeConversation else { print("fail no iMessage conversation"); return }
